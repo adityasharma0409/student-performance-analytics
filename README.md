@@ -84,6 +84,3 @@ Attendance is displayed as student information; it does not change the pass/fail
 
 When the program runs, it displays the first five records, basic dataset information, student-wise totals/averages/grades/results, class performance, subject-wise averages, and the top three performers. Exact numeric results are calculated from the CSV file at runtime.
 
-## Author
-
-Add your name, course, college, and internship details to `Project_Documentation.md` before submission.
