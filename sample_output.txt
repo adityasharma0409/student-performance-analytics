@@ -1,0 +1,87 @@
+Dataset loaded successfully.
+Dataset shape (rows, columns): (20, 7)
+
+First five records:
+ student_id         name department  math_marks  python_marks  english_marks  attendance
+       1001 Aarav Sharma       CSBS          88            92             81          94
+       1002   Diya Patel        CSE          76            84             79          91
+       1003  Kabir Verma         IT          67            73             70          86
+       1004 Ananya Singh       CSBS          95            96             91          98
+       1005 Ishaan Gupta        CSE          54            62             58          78
+
+Basic dataset information:
+Columns: student_id, name, department, math_marks, python_marks, english_marks, attendance
+Missing values by column:
+student_id       0
+name             0
+department       0
+math_marks       0
+python_marks     0
+english_marks    0
+attendance       0
+
+========================================================================
+STUDENT PERFORMANCE ANALYTICS SYSTEM
+========================================================================
+
+STUDENT-WISE PERFORMANCE
+ student_id            name department  total_marks  average_marks grade result  attendance
+       1001    Aarav Sharma       CSBS          261          87.00     A   Pass          94
+       1002      Diya Patel        CSE          239          79.67     B   Pass          91
+       1003     Kabir Verma         IT          210          70.00     B   Pass          86
+       1004    Ananya Singh       CSBS          282          94.00     A   Pass          98
+       1005    Ishaan Gupta        CSE          174          58.00     C   Pass          78
+       1006     Meera Joshi         IT          254          84.67     B   Pass          96
+       1007     Rohan Mehta       CSBS          131          43.67     D   Pass          72
+       1008       Sara Khan        CSE          274          91.33     A   Pass          97
+       1009      Vivaan Rao         IT          111          37.00     D   Fail          68
+       1010       Ira Desai       CSBS          216          72.00     B   Pass          88
+       1011      Arjun Nair        CSE          181          60.33     C   Pass          83
+       1012     Myra Kapoor         IT          254          84.67     B   Pass          93
+       1013    Reyansh Jain       CSBS          145          48.33     D   Pass          76
+       1014     Aadhya Iyer        CSE          253          84.33     B   Pass          95
+       1015    Dev Malhotra         IT          102          34.00     F   Fail          61
+       1016      Kiara Shah       CSBS          186          62.00     C   Pass          89
+       1017 Atharv Kulkarni        CSE          242          80.67     B   Pass          90
+       1018      Saanvi Roy         IT          215          71.67     B   Pass          85
+       1019      Advik Bose       CSBS          107          35.67     D   Fail          70
+       1020     Pari Chawla        CSE          268          89.33     A   Pass          99
+
+CLASS PERFORMANCE
+------------------------------------------------------------------------
+Number of students: 20
+Overall class average: 68.42
+Highest student average: 94.0
+Lowest student average: 34.0
+Students passed: 17
+Students failed: 3
+
+SUBJECT-WISE AVERAGE
+------------------------------------------------------------------------
+Math average: 66.8
+Python average: 69.7
+English average: 68.75
+Best-performing subject: Python
+
+TOP 3 PERFORMERS
+------------------------------------------------------------------------
+ student_id         name  average_marks grade
+       1004 Ananya Singh          94.00     A
+       1008    Sara Khan          91.33     A
+       1020  Pari Chawla          89.33     A
+
+========================================================================
+Analysis completed successfully.
+========================================================================
+
+ERRORS:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.

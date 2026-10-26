@@ -1,0 +1,21 @@
+student_id,name,department,math_marks,python_marks,english_marks,attendance
+1001,Aarav Sharma,CSBS,88,92,81,94
+1002,Diya Patel,CSE,76,84,79,91
+1003,Kabir Verma,IT,67,73,70,86
+1004,Ananya Singh,CSBS,95,96,91,98
+1005,Ishaan Gupta,CSE,54,62,58,78
+1006,Meera Joshi,IT,82,87,85,96
+1007,Rohan Mehta,CSBS,39,48,44,72
+1008,Sara Khan,CSE,91,89,94,97
+1009,Vivaan Rao,IT,31,42,38,68
+1010,Ira Desai,CSBS,72,69,75,88
+1011,Arjun Nair,CSE,63,57,61,83
+1012,Myra Kapoor,IT,86,80,88,93
+1013,Reyansh Jain,CSBS,45,51,49,76
+1014,Aadhya Iyer,CSE,78,91,84,95
+1015,Dev Malhotra,IT,28,33,41,61
+1016,Kiara Shah,CSBS,59,65,62,89
+1017,Atharv Kulkarni,CSE,84,77,81,90
+1018,Saanvi Roy,IT,69,74,72,85
+1019,Advik Bose,CSBS,36,39,32,70
+1020,Pari Chawla,CSE,93,85,90,99
