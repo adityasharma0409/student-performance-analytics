@@ -116,5 +116,5 @@ Test a Python program and verify its output.
 
 ## 9. GitHub Repository
 
-**Repository URL:** [Paste your final public GitHub repository URL here]
+**Repository URL:** https://github.com/adityasharma0409/student-performance-analytics
 
