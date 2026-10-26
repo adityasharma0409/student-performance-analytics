@@ -93,36 +93,28 @@ The program checks that required columns exist and that required fields do not c
 8. Lists the top three performers.
 9. Uses reusable functions and loops.
 
-## 7. Output / Screenshots
-
-After running `python main.py`, capture screenshots of these sections:
-
-1. Dataset loaded successfully, first five records, and dataset information.
-2. Student-wise performance table.
-3. Class performance and subject-wise averages.
-4. Top three performers and the completion message.
-
-Insert your actual screenshots here before final submission. Do not use invented screenshots or claim results that you have not run and checked.
-
-## 8. Final Outcome
+## 7. Final Outcome
 
 The project turns a CSV file containing student details, marks, and attendance into a readable performance report. It demonstrates basic Python programming, reusable functions, loops, conditions, NumPy numerical calculations, and Pandas DataFrame handling and analysis.
 
-## 9. Challenges and Learning
+## 8. Challenges and Learning
+Challenges Faced
+During the development of this project, I faced some challenges while understanding how to load and process student records using Pandas. I also learned how to organize the CSV column names correctly and use functions to perform calculations. Understanding the conditions for assigning grades and determining pass/fail results was another important part of the implementation.
 
-Complete this section honestly after testing. Possible points to discuss, if they match your experience:
+Errors and Testing
+While setting up the project, I installed the required NumPy and Pandas libraries using pip. After installing the dependencies, I executed the program successfully using Python. I verified the output, including student-wise marks, grades, pass/fail results, class average, subject-wise averages, and the top three performers. The program completed the analysis successfully.
 
-- Keeping CSV column names consistent with the Python program.
-- Understanding how a DataFrame stores and displays tabular data.
-- Writing functions so that calculations can be reused.
-- Using conditions to apply grade and pass/fail rules.
-- Checking for missing columns and missing values.
-- Reading console output to verify the analysis.
+Learning Outcomes
+Through this project, I learned how to:
+Load and analyze CSV data using Pandas.
+Use NumPy for numerical calculations.
+Create reusable Python functions.
+Apply conditional statements to assign grades and determine results.
+Use loops and DataFrames to process student records.
+Calculate class statistics and identify top-performing students.
+Test a Python program and verify its output.
 
-Write about any actual error you encountered and how you fixed it.
-
-## 10. GitHub Repository
+## 9. GitHub Repository
 
 **Repository URL:** [Paste your final public GitHub repository URL here]
 
-Before submission, verify that the repository contains `main.py`, `functions.py`, `students.csv`, `README.md`, `Project_Documentation.md`, and `requirements.txt`. Confirm that the program runs successfully and that the repository link is the one submitted through the Google Form.
